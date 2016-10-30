@@ -1,0 +1,31 @@
+{
+  "name": "cordlr-config-common",
+  "description": "Common cordlr plugins to get you started",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/cordlr-config-common",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/cordlr-config-common",
+  "bugs": {
+    "url": "https://github.com/seanc/cordlr-config-common/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "cordlr"
+  ],
+  "dependencies": {
+    "cordlr-help": "^1.2.0",
+    "cordlr-ping": "^0.1.2",
+    "cordlr-uptime": "^0.2.0",
+    "cordlr-version": "^0.2.0"
+  }
+}
